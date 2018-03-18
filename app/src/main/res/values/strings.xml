@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mad_Cpu</string>
+    <string name="intro">     In computing, scheduling is the method by which work specified by some means is assigned to resources that complete the work. The work may be virtual computation elements such as threads, processes or data flows, which are in turn scheduled onto hardware resources such as processors, network links or expansion cards.</string>
+    <string name="fs"> The code for FCFS scheduling  is simple to write and understand. One of the major drawback of this scheme is that the average time is often quite long. </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
