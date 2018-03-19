@@ -24,6 +24,10 @@
         <activity android:name=".rr" />
         <activity android:name=".fcfs_pree" />
         <activity android:name=".fcfs_non_pree" />
+        <activity
+            android:name=".login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
