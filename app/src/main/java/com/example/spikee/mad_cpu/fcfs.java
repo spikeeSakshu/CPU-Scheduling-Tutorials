@@ -23,6 +23,14 @@ public class fcfs extends AppCompatActivity {
                 startActivity(in);
             }
         });
+        non_pree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in =new Intent(fcfs.this,fcfs_non_pree.class);
+                startActivity(in);
+            }
+        });
+
 
     }
 }

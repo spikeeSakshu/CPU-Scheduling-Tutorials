@@ -18,7 +18,7 @@ public class Launcher extends AppCompatActivity {
                     sleep(3/2 * 1000);
 
                     // After 5 seconds redirect to another intent
-                    Intent i = new Intent(getBaseContext(), Login.class);
+                    Intent i = new Intent(getBaseContext(), Select.class);
                     startActivity(i);
 
                     //Remove activity

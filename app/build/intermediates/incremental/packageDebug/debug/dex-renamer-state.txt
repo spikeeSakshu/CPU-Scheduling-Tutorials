@@ -1,19 +1,4 @@
-#Sun Mar 18 22:49:12 IST 2018
-path.1=classes.dex
+#Mon Mar 19 09:38:39 IST 2018
+base.0=C\:\\Users\\Spikee\\Documents\\AndroidStudioProjects\\Mad_Cpu\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
-renamed.5=classes6.dex
-renamed.4=classes5.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
 renamed.0=classes.dex
-base.5=C\:\\Users\\Spikee\\Documents\\AndroidStudioProjects\\Mad_Cpu\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\30
-base.4=C\:\\Users\\Spikee\\Documents\\AndroidStudioProjects\\Mad_Cpu\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\35
-base.3=C\:\\Users\\Spikee\\Documents\\AndroidStudioProjects\\Mad_Cpu\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\32
-base.2=C\:\\Users\\Spikee\\Documents\\AndroidStudioProjects\\Mad_Cpu\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\34
-base.1=C\:\\Users\\Spikee\\Documents\\AndroidStudioProjects\\Mad_Cpu\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\31
-base.0=C\:\\Users\\Spikee\\Documents\\AndroidStudioProjects\\Mad_Cpu\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\33
-path.5=classes.dex
-path.4=classes.dex
-path.3=classes.dex
-path.2=classes.dex

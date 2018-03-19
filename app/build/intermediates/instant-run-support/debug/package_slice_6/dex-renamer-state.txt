@@ -1,4 +1,0 @@
-#Sun Mar 18 22:23:17 IST 2018
-base.0=C\:\\Users\\Spikee\\Documents\\AndroidStudioProjects\\Mad_Cpu\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\25
-path.0=classes.dex
-renamed.0=classes.dex

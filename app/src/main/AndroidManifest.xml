@@ -17,13 +17,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".Intro" />
-        <activity android:name=".Basics" />
         <activity android:name=".Select" />
         <activity android:name=".fcfs" />
         <activity android:name=".sjf" />
         <activity android:name=".priority" />
         <activity android:name=".rr" />
-        <activity android:name=".fcfs_pree"></activity>
+        <activity android:name=".fcfs_pree" />
+        <activity android:name=".fcfs_non_pree" />
     </application>
 
 </manifest>
