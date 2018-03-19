@@ -13,24 +13,6 @@ public class fcfs extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fcfs);
 
-        Button pree=findViewById(R.id.pree);
-        Button non_pree=findViewById(R.id.non_pree);
-
-        pree.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent in =new Intent(fcfs.this,fcfs_pree.class);
-                startActivity(in);
-            }
-        });
-        non_pree.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent in =new Intent(fcfs.this,fcfs_non_pree.class);
-                startActivity(in);
-            }
-        });
-
 
     }
 }

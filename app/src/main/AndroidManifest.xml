@@ -22,8 +22,7 @@
         <activity android:name=".sjf" />
         <activity android:name=".priority" />
         <activity android:name=".rr" />
-        <activity android:name=".fcfs_pree" />
-        <activity android:name=".fcfs_non_pree" />
+        <activity android:name=".fcfs_try" />
         <activity
             android:name=".login"
             android:label="@string/title_activity_login"

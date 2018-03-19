@@ -3974,7 +3974,7 @@ public final class R {
     public static final int abc_search_view=0x7f0a0018;
     public static final int abc_select_dialog_material=0x7f0a0019;
     public static final int activity_fcfs=0x7f0a001a;
-    public static final int activity_fcfs_non_pree=0x7f0a001b;
+    public static final int activity_fcfs_try =0x7f0a001b;
     public static final int activity_fcfs_pree=0x7f0a001c;
     public static final int activity_intro=0x7f0a001d;
     public static final int activity_launcher=0x7f0a001e;

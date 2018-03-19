@@ -25,17 +25,8 @@
        android:layout_height="wrap_content"
        android:text="@string/intro"/>
 
-    <Button
-        android:id="@+id/pree"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Preeemptive"/>
 
-    <Button
-        android:id="@+id/non_pree"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="NON-Preeemptive"/>
+
 </LinearLayout>
 
 </ScrollView>

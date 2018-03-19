@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.spikee.mad_cpu.fcfs_non_pree">
+    tools:context="com.example.spikee.mad_cpu.fcfs_try">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="270dp"
