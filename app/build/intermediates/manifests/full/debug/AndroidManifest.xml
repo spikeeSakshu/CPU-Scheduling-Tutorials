@@ -30,12 +30,12 @@
         <activity android:name="com.example.spikee.mad_cpu.sjf" />
         <activity android:name="com.example.spikee.mad_cpu.priority" />
         <activity android:name="com.example.spikee.mad_cpu.rr" />
-        <activity android:name="com.example.spikee.mad_cpu.fcfs_pree" />
-        <activity android:name="com.example.spikee.mad_cpu.fcfs_non_pree" />
+        <activity android:name="com.example.spikee.mad_cpu.fcfs_try" />
         <activity
             android:name="com.example.spikee.mad_cpu.login"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.spikee.mad_cpu.fcfs_ex" />
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"

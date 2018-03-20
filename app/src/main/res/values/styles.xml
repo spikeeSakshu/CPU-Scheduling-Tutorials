@@ -23,4 +23,14 @@
         <item name="colorControlActivated">#c60361</item>
         <item name="colorControlHighlight">@color/white</item>
     </style>
+    <style name="Divider">
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/divider_color</item>
+    </style>
+
+    <style name="Divider_invisible">
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
 </resources>

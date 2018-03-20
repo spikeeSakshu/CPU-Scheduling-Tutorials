@@ -20,10 +20,17 @@
         android:scaleType="fitStart"/>
    <TextView
        android:layout_margin="10dp"
+       android:id="@+id/tv"
        android:padding="5dp"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:text="@string/intro"/>
+    <Button
+        android:id="@+id/ex_fcfs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="proceed to an example"
+        android:layout_gravity="center"/>
 
 
 

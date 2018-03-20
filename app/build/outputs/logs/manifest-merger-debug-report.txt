@@ -122,22 +122,22 @@ activity#com.example.spikee.mad_cpu.rr
 ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:24:9-40
 	android:name
 		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:24:19-37
-activity#com.example.spikee.mad_cpu.fcfs_pree
-ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:25:9-47
+activity#com.example.spikee.mad_cpu.fcfs_try
+ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:25:9-46
 	android:name
-		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:25:19-44
-activity#com.example.spikee.mad_cpu.fcfs_non_pree
-ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:26:9-51
-	android:name
-		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:26:19-48
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:25:19-43
 activity#com.example.spikee.mad_cpu.login
-ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:27:9-30:68
+ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:26:9-29:59
 	android:label
-		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:29:13-57
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:28:13-57
 	android:theme
-		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:30:13-56
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:28:13-34
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:27:13-34
+activity#com.example.spikee.mad_cpu.fcfs_ex
+ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:30:9-54
+	android:name
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:30:19-42
 uses-sdk
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
