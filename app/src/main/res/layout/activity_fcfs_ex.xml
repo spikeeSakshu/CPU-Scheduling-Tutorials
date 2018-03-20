@@ -5,13 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.spikee.mad_cpu.fcfs_ex">
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/EX_1"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXAMPLE 1"/>
     <TableLayout
+        android:layout_below="@id/EX_1"
+        android:id="@+id/tb_layout1"
         android:layout_margin="10dp"
-        android:id="@+id/table"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -30,7 +37,6 @@
         <LinearLayout
             android:layout_width="1dp"
             android:layout_height="match_parent" >
-
             <View style="@style/Divider" />
         </LinearLayout>
 
@@ -96,7 +102,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:paddingTop="10dp"
-            android:text="80"
+            android:text="8"
             android:textColor="@color/white"
             android:textSize="16sp" />
 
@@ -138,7 +144,7 @@
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
                 android:paddingTop="10dp"
-                android:text="20"
+                android:text="2"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 
@@ -180,7 +186,7 @@
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
                 android:paddingTop="10dp"
-                android:text="10"
+                android:text="1"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 
@@ -223,7 +229,50 @@
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
                 android:paddingTop="10dp"
-                android:text="50"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6F9C33" >
+
+            <TextView
+
+                android:padding="5dp"
+                android:text="P5"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent" >
+                <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent" >
+
+                <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="5"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 
@@ -231,18 +280,252 @@
     </TableLayout>
 
         <TableLayout
-            android:layout_width="match_parent"
+            android:layout_below="@id/tb_layout1"
+            android:layout_width="wrap_content"
+            android:id="@+id/tb_gatt"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_margin="10dp">
             <TableRow
                 android:id="@+id/tableRow9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#6F9C33" >
-
+                <LinearLayout
+                    android:id="@+id/p1_bor"
+                    android:orientation="vertical"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                </LinearLayout>
+                <View style="@style/Divider" />
                 <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
                     android:padding="5dp"
-                    android:text="serving"
+                    android:layout_gravity="center"
+                    android:text="P1"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+                <LinearLayout
+                    android:id="@+id/p2_bor"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:text="P2"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+                <LinearLayout
+                    android:id="@+id/p3_bor"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_p3"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:text="P3"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+                <LinearLayout
+                    android:id="@+id/p4_bor"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:text="P4"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+                <LinearLayout
+                    android:id="@+id/P5_bor"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:text="P5"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+                <LinearLayout
+                    android:id="@+id/end_bor"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-5dp"
+            android:layout_alignLeft="@+id/tb_gatt"
+            android:layout_alignStart="@+id/tb_gatt"
+            android:layout_alignTop="@+id/tb_gatt"
+            android:layout_marginTop="35dp"
+            android:text="0"
+            android:textSize="20sp"
+            android:id="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_marginLeft="31dp"
+            android:layout_marginStart="31dp"
+            android:layout_toEndOf="@+id/EX_1"
+            android:layout_toRightOf="@+id/EX_1"
+            android:text="8"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_toEndOf="@+id/textView4"
+            android:layout_toRightOf="@+id/textView4"
+            android:text="10"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView5"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_toEndOf="@+id/textView"
+            android:layout_toRightOf="@+id/textView"
+            android:text="11"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView6"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:text="13"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_toEndOf="@+id/textView5"
+            android:layout_toRightOf="@+id/textView5"
+            android:text="18"
+            android:textSize="20sp" />
+        <TableLayout
+            android:layout_below="@id/textView3"
+            android:id="@+id/tb_layout2"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/title1"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="#92C94A" >
+
+                <TextView
+                    android:id="@+id/pi1"
+                    android:padding="10dp"
+                    android:layout_width="80dp"
+                    android:layout_gravity="center"
+                    android:text="@string/proc_id" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent">
+                    <View style="@style/Divider" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/ct"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/ct"
+                    android:layout_width="118dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/wt"
+                    android:padding="10dp"
+                    android:layout_width="90dp"
+                    android:text="@string/tat"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+
+                    <View style="@style/Divider" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tat"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:text="@string/wt"
+                    android:layout_width="100dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <!-- display this button in 3rd column via layout_column(zero based) -->
+
+            <TableRow
+                android:id="@+id/fRow2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#6F9C33" >
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:padding="5dp"
+                    android:text="P1"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
                 <LinearLayout
@@ -251,11 +534,8 @@
                     <View style="@style/Divider" />
                 </LinearLayout>
                 <TextView
-                    android:paddingBottom="10dp"
-                    android:paddingLeft="5dp"
-                    android:paddingRight="5dp"
-                    android:paddingTop="10dp"
-                    android:text="@string/at"
+                  android:padding="10dp"
+                    android:text="8"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
@@ -267,22 +547,205 @@
                 </LinearLayout>
 
                 <TextView
-                    android:paddingBottom="10dp"
-                    android:paddingLeft="5dp"
-                    android:paddingRight="5dp"
-                    android:paddingTop="10dp"
-                    android:text=""
+                   android:padding="10dp"
+                    android:text="8"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                    android:padding="10dp"
+                    android:text="0"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
             </TableRow>
+            <TableRow
+                android:id="@+id/frow3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#6F9C33" >
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="P2"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                   android:padding="10dp"
+                    android:text="10"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+
+                <TextView
+                   android:padding="10dp"
+                    android:text="10"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                    android:padding="10dp"
+                    android:text="8"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/fRow4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#6F9C33" >
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="P3"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                    android:padding="10dp"
+                    android:text="11"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+
+                    <View style="@style/Divider" />
+                </LinearLayout>
+
+                <TextView
+                    android:padding="10dp"
+                    android:text="11"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                    android:padding="10dp"
+                    android:text="10"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/fRow5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#6F9C33" >
+
+                <TextView
+
+                    android:padding="5dp"
+                    android:text="P4"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                    android:padding="10dp"
+                    android:text="13"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+
+                    <View style="@style/Divider" />
+                </LinearLayout>
+
+                <TextView
+                    android:padding="10dp"
+                    android:text="13"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                    android:padding="10dp"
+                    android:text="11"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/fRow6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#6F9C33" >
+
+                <TextView
+
+                    android:padding="5dp"
+                    android:text="P5"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                   android:padding="10dp"
+                    android:text="18"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+
+                    <View style="@style/Divider" />
+                </LinearLayout>
+
+                <TextView
+                   android:padding="10dp"
+                    android:text="18"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent" >
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                    android:padding="10dp"
+                    android:text="13"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </TableRow>
         </TableLayout>
-        <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:id="@+id/fcfs_try"
-        android:text="TRY out yourself !"/>
-    </LinearLayout>
+
+
+    </RelativeLayout>
 
 </ScrollView>

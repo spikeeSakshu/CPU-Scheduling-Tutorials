@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Spikee\\Documents\\AndroidStudioProjects\\Mad_Cpu\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Spikee\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.2.aar\\742232b97f1e893af5ad43f8662ce7f9\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Spikee\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.2.aar\\15506da120ac0a7a184c076d46c06fc4\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Spikee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ae9f28a4cb53ab2135bb3e5e8cd71ecd\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Spikee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\db842bf6ad0ccc565d5bbeea3653a568\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

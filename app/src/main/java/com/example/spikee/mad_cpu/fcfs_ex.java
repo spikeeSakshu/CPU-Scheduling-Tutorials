@@ -12,14 +12,14 @@ public class fcfs_ex extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fcfs_ex);
-        Button try_fcfs=findViewById(R.id.fcfs_try);
+        //Button try_fcfs=findViewById(R.id.fcfs_try);
 
-        try_fcfs.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent in=new Intent(fcfs_ex.this,fcfs_try.class);
-                startActivity(in);
-            }
-        });
-    }
+//        try_fcfs.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent in=new Intent(fcfs_ex.this,fcfs_try.class);
+//                startActivity(in);
+//            }
+//        });
+ }
 }

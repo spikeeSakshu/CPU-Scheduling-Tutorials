@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1088709460617",
+    "firebase_url": "https://madcpu-aee8d.firebaseio.com",
+    "project_id": "madcpu-aee8d",
+    "storage_bucket": "madcpu-aee8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088709460617:android:8b932870275bd490",
+        "android_client_info": {
+          "package_name": "com.example.spikee.mad_cpu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088709460617-l0ho1mdqnnuh2bmjbpujb31m41nv57k3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spikee.mad_cpu",
+            "certificate_hash": "ab7355c147bd332c53c2f24c4c165a54eed65e2e"
+          }
+        },
+        {
+          "client_id": "1088709460617-888e6epa5n73neu8qbimhpadthot7too.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp86jJ7xTjJRVs-m1QugkR831IqEkHYSE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088709460617-888e6epa5n73neu8qbimhpadthot7too.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

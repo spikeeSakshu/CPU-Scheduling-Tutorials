@@ -13,4 +13,7 @@
     <string name="title_activity_login">login</string>
     <string name="proc_id">PROCESS ID</string>
     <string name="at">ARRIVAL TIME</string>
+    <string name="tat">TURN AROUND TIME</string>
+    <string name="ct">COMPLETION TIME</string>
+    <string name="wt">WAITING TIME</string>
 </resources>

@@ -4,33 +4,39 @@ ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-33:12
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-33:12
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-33:12
-MERGED from [com.android.support:design:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\742232b97f1e893af5ad43f8662ce7f9\AndroidManifest.xml:17:1-22:12
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\b0396678ce089cbb8d15ab65b5f58ae7\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b2dbff0433e0d4bb64fedf4275c013ba\AndroidManifest.xml:17:1-39:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\ae9f28a4cb53ab2135bb3e5e8cd71ecd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\340d63676f831f8549928815f54fb259\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b54a729c6747faef88868618ac03e9f1\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\c3f2f421c9b571c09158d736ccfc3cbd\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\22c6da85849f3586db439c4af45f933c\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\dd9e7a1fd5e12c3ba5c9f4fc173bf1bc\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\c1ac7d9d92a5f33bf60f6a7fdbde38f2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f99f73efa966b3bcd8535a5465cbee42\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\405e3fc5d3581b111ef3584cf4590ecd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\6f1b7b28f10952871c48f99a7038fdb9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\e646d4834ef7bb466ff9fc539cde8139\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\50b49ddeee2ec61de02c91e1e9c8bedf\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\c5f59c2c9b5b858521db34a8e613d119\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\f5777147e9eebe6bb23c1e619a301b86\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\816b960448aa51e5ed34ffc99416435c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\6da39fd356d9e7e940a2d77dd0a0a6ab\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\a0fcb173fc32ab5c2162268e52f91043\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\79e552d2b8a0cf086ec10fafeb0b907e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\9ba1157424e5c723afcb683a4eb77c23\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\48bd9c4063b14fa73f600ef847cedff8\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ef4d17f805738bc29b63cbf1c68e682a\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\23c9cfb96f1413a9c21cb6bbeea9f9f8\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\c2d2a2a7a97532f0b7cffbf463502fda\AndroidManifest.xml:2:1-6:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\12c195212a4f925031e295e909e2b1ec\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\15506da120ac0a7a184c076d46c06fc4\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\e6e468d3a53ebb13823d99b3cb61b673\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\ff2979e8d792b6918ac06b469b492aa4\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\a47ab0b3ac3de8ab54701efb03600b50\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\db842bf6ad0ccc565d5bbeea3653a568\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\2dfac6a43b9ee67af0b1e25d1afb57b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\301653b11b65f8fe1943c0aecb524430\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\a562556a2dc2b8ed6a6ae4048e092ce0\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\7000704d414bfd6ca39f863039e4fc17\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\189488ed58127783fc8cb76cd0c6d93d\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\6a96a11bdc8ba18a1006129c251cc167\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\ab4b110fc79216690197c1acad8301ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\7b4c30958aa9650bce18b17f4ad856e5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\bc14c4b79298979b1c1813e9faa8b8c0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.4.2.aar\19328b11dbc5d254c8c98057fbc3ef52\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\51a3a38852f4e7e23bfd673fe076656c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\06b5fbe8c69eb6b62daaa10e8c753b62\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\9e28a7b9058706a5c1a246656cb88fa4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7d00d6088b6adfea7fca07dbe7bbaa2e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\61f8f560c09e03f61edd52d8d5667182\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\dc963f668de0730138b15eefc94afbe2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a4aba5c0b2d7527a85a08681ee3ecfbb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\abd72d6df6724be02a834c729b4c3b17\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\92faa136df5edbe7f4c1b1483ef28e5f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\b3e4ff99106ab6f6be8f791cb7260ee0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\a6d4448aae5c2e3d1b216c2248085bac\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\6addbb6076f0d53664f8ec4f6fc16f09\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\51243c3e1e4f1d361ee28e643b32ed70\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\8df4643aa1f73cc7e9125bbfff842409\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\6fbe6f6969a725c983cd391b32284c64\AndroidManifest.xml:2:1-6:12
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-33:12
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-33:12
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-33:12
@@ -48,30 +54,56 @@ INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\ma
 		INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:4:1-62
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:4:18-60
 application
 ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:5:5-31:19
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\b0396678ce089cbb8d15ab65b5f58ae7\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\b0396678ce089cbb8d15ab65b5f58ae7\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b2dbff0433e0d4bb64fedf4275c013ba\AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b2dbff0433e0d4bb64fedf4275c013ba\AndroidManifest.xml:22:5-37:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b54a729c6747faef88868618ac03e9f1\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b54a729c6747faef88868618ac03e9f1\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\dd9e7a1fd5e12c3ba5c9f4fc173bf1bc\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\dd9e7a1fd5e12c3ba5c9f4fc173bf1bc\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\c1ac7d9d92a5f33bf60f6a7fdbde38f2\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\c1ac7d9d92a5f33bf60f6a7fdbde38f2\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f99f73efa966b3bcd8535a5465cbee42\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f99f73efa966b3bcd8535a5465cbee42\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\9ba1157424e5c723afcb683a4eb77c23\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\9ba1157424e5c723afcb683a4eb77c23\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\48bd9c4063b14fa73f600ef847cedff8\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\48bd9c4063b14fa73f600ef847cedff8\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ef4d17f805738bc29b63cbf1c68e682a\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ef4d17f805738bc29b63cbf1c68e682a\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\23c9cfb96f1413a9c21cb6bbeea9f9f8\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\23c9cfb96f1413a9c21cb6bbeea9f9f8\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\c2d2a2a7a97532f0b7cffbf463502fda\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\c2d2a2a7a97532f0b7cffbf463502fda\AndroidManifest.xml:5:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\e6e468d3a53ebb13823d99b3cb61b673\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\e6e468d3a53ebb13823d99b3cb61b673\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\ff2979e8d792b6918ac06b469b492aa4\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\ff2979e8d792b6918ac06b469b492aa4\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\a47ab0b3ac3de8ab54701efb03600b50\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\a47ab0b3ac3de8ab54701efb03600b50\AndroidManifest.xml:5:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\301653b11b65f8fe1943c0aecb524430\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\301653b11b65f8fe1943c0aecb524430\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\a562556a2dc2b8ed6a6ae4048e092ce0\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\a562556a2dc2b8ed6a6ae4048e092ce0\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\7000704d414bfd6ca39f863039e4fc17\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\7000704d414bfd6ca39f863039e4fc17\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\189488ed58127783fc8cb76cd0c6d93d\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\189488ed58127783fc8cb76cd0c6d93d\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\6a96a11bdc8ba18a1006129c251cc167\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\6a96a11bdc8ba18a1006129c251cc167\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.4.2.aar\19328b11dbc5d254c8c98057fbc3ef52\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.4.2.aar\19328b11dbc5d254c8c98057fbc3ef52\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\abd72d6df6724be02a834c729b4c3b17\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\abd72d6df6724be02a834c729b4c3b17\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\92faa136df5edbe7f4c1b1483ef28e5f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\92faa136df5edbe7f4c1b1483ef28e5f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\b3e4ff99106ab6f6be8f791cb7260ee0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\b3e4ff99106ab6f6be8f791cb7260ee0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\a6d4448aae5c2e3d1b216c2248085bac\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\a6d4448aae5c2e3d1b216c2248085bac\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\6addbb6076f0d53664f8ec4f6fc16f09\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\6addbb6076f0d53664f8ec4f6fc16f09\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\8df4643aa1f73cc7e9125bbfff842409\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\8df4643aa1f73cc7e9125bbfff842409\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\6fbe6f6969a725c983cd391b32284c64\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\6fbe6f6969a725c983cd391b32284c64\AndroidManifest.xml:5:5-20
 	android:supportsRtl
 		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
@@ -135,67 +167,79 @@ ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\
 	android:name
 		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:27:13-34
 activity#com.example.spikee.mad_cpu.fcfs_ex
-ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:30:9-54
+ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:30:9-45
 	android:name
 		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:30:19-42
 uses-sdk
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\742232b97f1e893af5ad43f8662ce7f9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\742232b97f1e893af5ad43f8662ce7f9\AndroidManifest.xml:20:5-44
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\b0396678ce089cbb8d15ab65b5f58ae7\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\b0396678ce089cbb8d15ab65b5f58ae7\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b2dbff0433e0d4bb64fedf4275c013ba\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b2dbff0433e0d4bb64fedf4275c013ba\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\ae9f28a4cb53ab2135bb3e5e8cd71ecd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\ae9f28a4cb53ab2135bb3e5e8cd71ecd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\340d63676f831f8549928815f54fb259\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\340d63676f831f8549928815f54fb259\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b54a729c6747faef88868618ac03e9f1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b54a729c6747faef88868618ac03e9f1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\c3f2f421c9b571c09158d736ccfc3cbd\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\c3f2f421c9b571c09158d736ccfc3cbd\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\22c6da85849f3586db439c4af45f933c\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\22c6da85849f3586db439c4af45f933c\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\dd9e7a1fd5e12c3ba5c9f4fc173bf1bc\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\dd9e7a1fd5e12c3ba5c9f4fc173bf1bc\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\c1ac7d9d92a5f33bf60f6a7fdbde38f2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\c1ac7d9d92a5f33bf60f6a7fdbde38f2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f99f73efa966b3bcd8535a5465cbee42\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f99f73efa966b3bcd8535a5465cbee42\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\405e3fc5d3581b111ef3584cf4590ecd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\405e3fc5d3581b111ef3584cf4590ecd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\6f1b7b28f10952871c48f99a7038fdb9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\6f1b7b28f10952871c48f99a7038fdb9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\e646d4834ef7bb466ff9fc539cde8139\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\e646d4834ef7bb466ff9fc539cde8139\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\50b49ddeee2ec61de02c91e1e9c8bedf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\50b49ddeee2ec61de02c91e1e9c8bedf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\c5f59c2c9b5b858521db34a8e613d119\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\c5f59c2c9b5b858521db34a8e613d119\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\f5777147e9eebe6bb23c1e619a301b86\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\f5777147e9eebe6bb23c1e619a301b86\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\816b960448aa51e5ed34ffc99416435c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\816b960448aa51e5ed34ffc99416435c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\6da39fd356d9e7e940a2d77dd0a0a6ab\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\6da39fd356d9e7e940a2d77dd0a0a6ab\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\a0fcb173fc32ab5c2162268e52f91043\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\a0fcb173fc32ab5c2162268e52f91043\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\79e552d2b8a0cf086ec10fafeb0b907e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\79e552d2b8a0cf086ec10fafeb0b907e\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\9ba1157424e5c723afcb683a4eb77c23\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\9ba1157424e5c723afcb683a4eb77c23\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\48bd9c4063b14fa73f600ef847cedff8\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\48bd9c4063b14fa73f600ef847cedff8\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ef4d17f805738bc29b63cbf1c68e682a\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ef4d17f805738bc29b63cbf1c68e682a\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\23c9cfb96f1413a9c21cb6bbeea9f9f8\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\23c9cfb96f1413a9c21cb6bbeea9f9f8\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\c2d2a2a7a97532f0b7cffbf463502fda\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\c2d2a2a7a97532f0b7cffbf463502fda\AndroidManifest.xml:4:5-43
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\12c195212a4f925031e295e909e2b1ec\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\12c195212a4f925031e295e909e2b1ec\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:design:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\15506da120ac0a7a184c076d46c06fc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\15506da120ac0a7a184c076d46c06fc4\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\e6e468d3a53ebb13823d99b3cb61b673\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\e6e468d3a53ebb13823d99b3cb61b673\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\ff2979e8d792b6918ac06b469b492aa4\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\ff2979e8d792b6918ac06b469b492aa4\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\a47ab0b3ac3de8ab54701efb03600b50\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\a47ab0b3ac3de8ab54701efb03600b50\AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\db842bf6ad0ccc565d5bbeea3653a568\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\db842bf6ad0ccc565d5bbeea3653a568\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\2dfac6a43b9ee67af0b1e25d1afb57b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\2dfac6a43b9ee67af0b1e25d1afb57b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\301653b11b65f8fe1943c0aecb524430\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\301653b11b65f8fe1943c0aecb524430\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\a562556a2dc2b8ed6a6ae4048e092ce0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\a562556a2dc2b8ed6a6ae4048e092ce0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\7000704d414bfd6ca39f863039e4fc17\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\7000704d414bfd6ca39f863039e4fc17\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\189488ed58127783fc8cb76cd0c6d93d\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\189488ed58127783fc8cb76cd0c6d93d\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\6a96a11bdc8ba18a1006129c251cc167\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\6a96a11bdc8ba18a1006129c251cc167\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\ab4b110fc79216690197c1acad8301ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\ab4b110fc79216690197c1acad8301ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\7b4c30958aa9650bce18b17f4ad856e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\7b4c30958aa9650bce18b17f4ad856e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\bc14c4b79298979b1c1813e9faa8b8c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\bc14c4b79298979b1c1813e9faa8b8c0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.4.2.aar\19328b11dbc5d254c8c98057fbc3ef52\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.4.2.aar\19328b11dbc5d254c8c98057fbc3ef52\AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\51a3a38852f4e7e23bfd673fe076656c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\51a3a38852f4e7e23bfd673fe076656c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\06b5fbe8c69eb6b62daaa10e8c753b62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\06b5fbe8c69eb6b62daaa10e8c753b62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\9e28a7b9058706a5c1a246656cb88fa4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\9e28a7b9058706a5c1a246656cb88fa4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7d00d6088b6adfea7fca07dbe7bbaa2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7d00d6088b6adfea7fca07dbe7bbaa2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\61f8f560c09e03f61edd52d8d5667182\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\61f8f560c09e03f61edd52d8d5667182\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\dc963f668de0730138b15eefc94afbe2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\dc963f668de0730138b15eefc94afbe2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a4aba5c0b2d7527a85a08681ee3ecfbb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a4aba5c0b2d7527a85a08681ee3ecfbb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\abd72d6df6724be02a834c729b4c3b17\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\abd72d6df6724be02a834c729b4c3b17\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\92faa136df5edbe7f4c1b1483ef28e5f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\92faa136df5edbe7f4c1b1483ef28e5f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\b3e4ff99106ab6f6be8f791cb7260ee0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\b3e4ff99106ab6f6be8f791cb7260ee0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\a6d4448aae5c2e3d1b216c2248085bac\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\a6d4448aae5c2e3d1b216c2248085bac\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\6addbb6076f0d53664f8ec4f6fc16f09\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\6addbb6076f0d53664f8ec4f6fc16f09\AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\51243c3e1e4f1d361ee28e643b32ed70\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\51243c3e1e4f1d361ee28e643b32ed70\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\8df4643aa1f73cc7e9125bbfff842409\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\8df4643aa1f73cc7e9125bbfff842409\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\6fbe6f6969a725c983cd391b32284c64\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\6fbe6f6969a725c983cd391b32284c64\AndroidManifest.xml:4:5-43
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -206,35 +250,157 @@ INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\ma
 		INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
-activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b2dbff0433e0d4bb64fedf4275c013ba\AndroidManifest.xml:23:9-27:75
-	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b2dbff0433e0d4bb64fedf4275c013ba\AndroidManifest.xml:25:13-46
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b2dbff0433e0d4bb64fedf4275c013ba\AndroidManifest.xml:26:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b2dbff0433e0d4bb64fedf4275c013ba\AndroidManifest.xml:27:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b2dbff0433e0d4bb64fedf4275c013ba\AndroidManifest.xml:24:13-93
-service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b2dbff0433e0d4bb64fedf4275c013ba\AndroidManifest.xml:33:9-36:110
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b2dbff0433e0d4bb64fedf4275c013ba\AndroidManifest.xml:35:13-36
-	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b2dbff0433e0d4bb64fedf4275c013ba\AndroidManifest.xml:36:13-107
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b2dbff0433e0d4bb64fedf4275c013ba\AndroidManifest.xml:34:13-89
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\dd9e7a1fd5e12c3ba5c9f4fc173bf1bc\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\a562556a2dc2b8ed6a6ae4048e092ce0\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\dd9e7a1fd5e12c3ba5c9f4fc173bf1bc\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\a562556a2dc2b8ed6a6ae4048e092ce0\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\dd9e7a1fd5e12c3ba5c9f4fc173bf1bc\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\a562556a2dc2b8ed6a6ae4048e092ce0\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\dd9e7a1fd5e12c3ba5c9f4fc173bf1bc\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\a562556a2dc2b8ed6a6ae4048e092ce0\AndroidManifest.xml:19:19-85
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\0d5d20b517416080b4a146dc29667e80\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\911705911743e81cc13693bd739e14a5\AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:24:17-71
+permission#com.example.spikee.mad_cpu.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:26:22-76
+uses-permission#com.example.spikee.mad_cpu.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:31:13-34:29
+intent-filter#com.example.spikee.mad_cpu+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:33:27-58
+category#com.example.spikee.mad_cpu
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\51a90d1b05c4191d91273fb5f60f08e1\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\7000704d414bfd6ca39f863039e4fc17\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\7000704d414bfd6ca39f863039e4fc17\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\7000704d414bfd6ca39f863039e4fc17\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\7000704d414bfd6ca39f863039e4fc17\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\7000704d414bfd6ca39f863039e4fc17\AndroidManifest.xml:6:79-143
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f99f73efa966b3bcd8535a5465cbee42\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\6a96a11bdc8ba18a1006129c251cc167\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f99f73efa966b3bcd8535a5465cbee42\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\6a96a11bdc8ba18a1006129c251cc167\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f99f73efa966b3bcd8535a5465cbee42\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\6a96a11bdc8ba18a1006129c251cc167\AndroidManifest.xml:20:20-65

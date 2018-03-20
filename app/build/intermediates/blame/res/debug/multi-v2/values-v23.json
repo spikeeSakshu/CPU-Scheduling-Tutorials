@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Spikee\\Documents\\AndroidStudioProjects\\Mad_Cpu\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Spikee\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.0.2.aar\\340d63676f831f8549928815f54fb259\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Spikee\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.0.2.aar\\2dfac6a43b9ee67af0b1e25d1afb57b3\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Spikee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ae9f28a4cb53ab2135bb3e5e8cd71ecd\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Spikee\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\db842bf6ad0ccc565d5bbeea3653a568\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
