@@ -1,13 +1,7 @@
 <resources>
     <string name="app_name">Mad_Cpu</string>
     <string name="intro">     In computing, scheduling is the method by which work specified by some means is assigned to resources that complete the work. The work may be virtual computation elements such as threads, processes or data flows, which are in turn scheduled onto hardware resources such as processors, network links or expansion cards.</string>
-    <string name="fs"> The code for FCFS scheduling  is simple to write and understand. One of the major drawback of this scheme is that the average time is often quite long. </string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="tab_text_3">Tab 3</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_login">login</string>
@@ -16,4 +10,13 @@
     <string name="tat">TURN AROUND TIME</string>
     <string name="ct">COMPLETION TIME</string>
     <string name="wt">WAITING TIME</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_try_nav">Try_nav</string>
+    <string name="title_activity_fcfs_example">Fcfs_example</string>
+    <string name="title_activity_sjf">Sjf</string>
+    <string name="title_activity_priority">Priority</string>
+    <string name="title_activity_rr">Rr</string>
+    <string name="title_activity_fcfs">Fcfs</string>
 </resources>

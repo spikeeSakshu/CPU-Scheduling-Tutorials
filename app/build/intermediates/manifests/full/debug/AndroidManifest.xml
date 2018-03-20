@@ -27,7 +27,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity android:name="com.example.spikee.mad_cpu.Launcher" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,16 +37,37 @@
         </activity>
         <activity android:name="com.example.spikee.mad_cpu.Intro" />
         <activity android:name="com.example.spikee.mad_cpu.Select" />
-        <activity android:name="com.example.spikee.mad_cpu.fcfs" />
-        <activity android:name="com.example.spikee.mad_cpu.sjf" />
-        <activity android:name="com.example.spikee.mad_cpu.priority" />
-        <activity android:name="com.example.spikee.mad_cpu.rr" />
         <activity android:name="com.example.spikee.mad_cpu.fcfs_try" />
         <activity
             android:name="com.example.spikee.mad_cpu.login"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.spikee.mad_cpu.fcfs_ex" />
+        <activity
+            android:name="com.example.spikee.mad_cpu.Fcfs_example"
+            android:label="@string/title_activity_fcfs_example"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.spikee.mad_cpu.Sjf"
+            android:label="@string/title_activity_sjf"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.spikee.mad_cpu.Priority"
+            android:label="@string/title_activity_priority"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.spikee.mad_cpu.Rr"
+            android:label="@string/title_activity_rr"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.spikee.mad_cpu.Fcfs"
+            android:label="@string/title_activity_fcfs"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

@@ -47,14 +47,14 @@ public class Select extends AppCompatActivity {
         {
             @Override
             public void onClick(View v) {
-                Intent in=new Intent(Select.this,fcfs.class);
+                Intent in=new Intent(Select.this,Fcfs.class);
                 startActivity(in);
             }
         });
         fcfs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in=new Intent(Select.this,fcfs.class);
+                Intent in=new Intent(Select.this,Fcfs.class);
                 startActivity(in);
             }
         });
@@ -62,14 +62,14 @@ public class Select extends AppCompatActivity {
         tx_sjf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in=new Intent(Select.this,sjf.class);
+                Intent in=new Intent(Select.this,Sjf.class);
                 startActivity(in);
             }
         });
         sjf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in=new Intent(Select.this,sjf.class);
+                Intent in=new Intent(Select.this,Sjf.class);
                 startActivity(in);
             }
         });
@@ -77,14 +77,14 @@ public class Select extends AppCompatActivity {
         tx_priority.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in=new Intent(Select.this,priority.class);
+                Intent in=new Intent(Select.this,Priority.class);
                 startActivity(in);
             }
         });
         priority.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in=new Intent(Select.this,priority.class);
+                Intent in=new Intent(Select.this,Priority.class);
                 startActivity(in);
             }
         });
@@ -92,14 +92,14 @@ public class Select extends AppCompatActivity {
         tx_rr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in=new Intent(Select.this,rr.class);
+                Intent in=new Intent(Select.this,Rr.class);
                 startActivity(in);
             }
         });
         rr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in=new Intent(Select.this,rr.class);
+                Intent in=new Intent(Select.this,Rr.class);
                 startActivity(in);
             }
         });
