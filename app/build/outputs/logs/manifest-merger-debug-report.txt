@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-76:12
 MERGED from [com.android.support:design:27.0.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\15506da120ac0a7a184c076d46c06fc4\AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\e6e468d3a53ebb13823d99b3cb61b673\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\ff2979e8d792b6918ac06b469b492aa4\AndroidManifest.xml:16:1-21:12
@@ -37,20 +37,20 @@ MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\Spi
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\51243c3e1e4f1d361ee28e643b32ed70\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\8df4643aa1f73cc7e9125bbfff842409\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\6fbe6f6969a725c983cd391b32284c64\AndroidManifest.xml:2:1-6:12
-INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-76:12
 	package
 		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-76:12
 		INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:1-76:12
 		INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:2:11-69
@@ -65,7 +65,7 @@ MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Spikee\.gradle\ca
 	android:name
 		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:7:5-54:19
+ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:7:5-74:19
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\e6e468d3a53ebb13823d99b3cb61b673\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\e6e468d3a53ebb13823d99b3cb61b673\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\Spikee\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\ff2979e8d792b6918ac06b469b492aa4\AndroidManifest.xml:19:5-20:19
@@ -183,13 +183,53 @@ ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\
 	android:name
 		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:47:13-31
 activity#com.example.spikee.mad_cpu.Fcfs
-ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:50:9-53:81
+ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:50:9-53:72
 	android:label
 		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:52:13-56
 	android:theme
 		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:53:13-69
 	android:name
 		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:51:13-33
+activity#com.example.spikee.mad_cpu.Sjf_example
+ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:54:9-57:72
+	android:label
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:56:13-63
+	android:theme
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:57:13-69
+	android:name
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:55:13-40
+activity#com.example.spikee.mad_cpu.Srtf_example
+ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:58:9-61:72
+	android:label
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:60:13-64
+	android:theme
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:61:13-69
+	android:name
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:59:13-41
+activity#com.example.spikee.mad_cpu.Sjf_try
+ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:62:9-65:72
+	android:label
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:64:13-59
+	android:theme
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:65:13-69
+	android:name
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:63:13-36
+activity#com.example.spikee.mad_cpu.Srtf_try
+ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:66:9-69:72
+	android:label
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:68:13-60
+	android:theme
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:69:13-69
+	android:name
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:67:13-37
+activity#com.example.spikee.mad_cpu.Proirity_example
+ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:70:9-73:81
+	android:label
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:72:13-68
+	android:theme
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:73:13-69
+	android:name
+		ADDED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml:71:13-45
 uses-sdk
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Spikee\Documents\AndroidStudioProjects\Mad_Cpu\app\src\main\AndroidManifest.xml

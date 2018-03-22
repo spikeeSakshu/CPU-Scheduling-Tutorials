@@ -19,4 +19,9 @@
     <string name="title_activity_priority">Priority</string>
     <string name="title_activity_rr">Rr</string>
     <string name="title_activity_fcfs">Fcfs</string>
+    <string name="title_activity_sjf_example">Sjf_example</string>
+    <string name="title_activity_srtf_example">Srtf_example</string>
+    <string name="title_activity_sjf_try">Sjf_try</string>
+    <string name="title_activity_srtf_try">Srtf_try</string>
+    <string name="title_activity_proirity_example">Proirity_example</string>
 </resources>

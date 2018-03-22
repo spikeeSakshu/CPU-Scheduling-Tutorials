@@ -50,6 +50,26 @@
         <activity
             android:name=".Fcfs"
             android:label="@string/title_activity_fcfs"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Sjf_example"
+            android:label="@string/title_activity_sjf_example"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Srtf_example"
+            android:label="@string/title_activity_srtf_example"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Sjf_try"
+            android:label="@string/title_activity_sjf_try"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Srtf_try"
+            android:label="@string/title_activity_srtf_try"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Proirity_example"
+            android:label="@string/title_activity_proirity_example"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
     </application>
 

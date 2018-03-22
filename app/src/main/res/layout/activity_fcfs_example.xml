@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+
     android:elevation="4dp"
     tools:openDrawer="start">
 
@@ -38,6 +39,7 @@
             android:layout_height="wrap_content"
             android:text="EXAMPLE 1"/>
         <TableLayout
+
             android:layout_below="@id/EX_1"
             android:id="@+id/tb_layout1"
             android:layout_margin="10dp"
@@ -1260,7 +1262,7 @@
                 </LinearLayout>
                 <TextView
                     android:padding="10dp"
-                    android:text="10"
+                    android:text="12"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
                 <LinearLayout
@@ -1271,7 +1273,7 @@
 
                 <TextView
                     android:padding="10dp"
-                    android:text="10"
+                    android:text="11"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
                 <LinearLayout
@@ -1281,7 +1283,7 @@
                 </LinearLayout>
                 <TextView
                     android:padding="10dp"
-                    android:text="8"
+                    android:text="7"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
             </TableRow>
@@ -1303,7 +1305,7 @@
                 </LinearLayout>
                 <TextView
                     android:padding="10dp"
-                    android:text="11"
+                    android:text="21"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
@@ -1316,7 +1318,7 @@
 
                 <TextView
                     android:padding="10dp"
-                    android:text="11"
+                    android:text="19"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
                 <LinearLayout
@@ -1349,7 +1351,7 @@
                 </LinearLayout>
                 <TextView
                     android:padding="10dp"
-                    android:text="13"
+                    android:text="26"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
@@ -1362,7 +1364,7 @@
 
                 <TextView
                     android:padding="10dp"
-                    android:text="13"
+                    android:text="23"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
                 <LinearLayout
@@ -1372,7 +1374,7 @@
                 </LinearLayout>
                 <TextView
                     android:padding="10dp"
-                    android:text="11"
+                    android:text="18"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
             </TableRow>
