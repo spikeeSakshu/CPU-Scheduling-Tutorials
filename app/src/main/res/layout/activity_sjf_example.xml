@@ -10,7 +10,7 @@
     tools:openDrawer="start">
 
     <include
-        layout="@layout/app_bar_sjf_example"
+        layout="@layout/app_bar"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
@@ -20,8 +20,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_sjf_example"
-        app:menu="@menu/activity_sjf_example_drawer" />
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/activity_drawer" />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">

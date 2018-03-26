@@ -8,9 +8,6 @@
     android:fitsSystemWindows="true"
     tools:context="com.example.spikee.mad_cpu.login">
 
-
-
-
         <android.support.design.widget.TabLayout
             android:id="@+id/tabs"
             android:layout_gravity="bottom"
