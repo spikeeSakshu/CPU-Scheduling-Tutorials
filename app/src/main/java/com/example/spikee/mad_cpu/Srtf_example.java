@@ -30,7 +30,7 @@ public class Srtf_example extends AppCompatActivity
         srtf_try.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in=new Intent(Srtf_example.this,Srtf_try.class);
+                Intent in=new Intent(Srtf_example.this,sjf_pre_try.class);
                 startActivity(in);
             }
         });

@@ -1,5 +1,6 @@
 package com.example.spikee.mad_cpu;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -90,5 +91,9 @@ public class Fcfs_example extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+    public void gototry(View view) {
+        Intent intent =new Intent(this,fcfs_try.class);
+        startActivity(intent);
     }
 }

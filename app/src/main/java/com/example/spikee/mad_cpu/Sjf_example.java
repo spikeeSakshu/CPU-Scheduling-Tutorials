@@ -32,7 +32,7 @@ public class Sjf_example extends AppCompatActivity
         sjf_try.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in=new Intent(Sjf_example.this,Sjf_try.class);
+                Intent in=new Intent(Sjf_example.this,sjf_pre_try.class);
                 startActivity(in);
             }
         });

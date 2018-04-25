@@ -1385,7 +1385,8 @@
             android:layout_centerHorizontal="true"
             android:layout_height="wrap_content"
             android:layout_below="@id/ex2_tb_layout2"
-            android:text="TRY YOURSELF!"/>
+            android:text="TRY YOURSELF!"
+            android:onClick="gototry"/>
         <TextView
             android:layout_below="@id/fcfs_try"
             android:layout_width="match_parent"

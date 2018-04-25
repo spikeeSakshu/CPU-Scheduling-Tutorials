@@ -60,14 +60,6 @@
             android:label="@string/title_activity_srtf_example"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".Sjf_try"
-            android:label="@string/title_activity_sjf_try"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".Srtf_try"
-            android:label="@string/title_activity_srtf_try"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
             android:name=".Proirity_example"
             android:label="@string/title_activity_proirity_example"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
@@ -76,7 +68,10 @@
             android:name=".calc"
             android:label="@string/title_activity_calc"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".show"></activity>
+        <activity android:name=".show" />
+        <activity android:name=".extra" />
+        <activity android:name=".sjf_non_pre_try" />
+        <activity android:name=".sjf_pre_try"></activity>
     </application>
 
 </manifest>
