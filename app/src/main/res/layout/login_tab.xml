@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+    android:gravity="center"
     >
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
         android:theme="@style/EditTextHint">
 
         <android.support.design.widget.TextInputEditText
@@ -28,6 +28,7 @@
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
         android:theme="@style/EditTextHint">
         <android.support.design.widget.TextInputEditText
             android:id="@+id/password"
@@ -43,9 +44,8 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="-2dp"
         android:text="Remember Me" />
     <Button
         android:layout_width="180dp"
@@ -55,16 +55,7 @@
         android:textSize="15sp"
         android:background="#f73"
         android:textColor="#fff"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center_horizontal"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Or"
-        android:textSize="15sp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="25dp"/>
 
 
     <TextView
@@ -72,9 +63,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Forgot Password?"
-        android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
-        android:gravity="center"
+        android:layout_marginLeft="6dp"
         />
 
 </LinearLayout>

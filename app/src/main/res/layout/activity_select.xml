@@ -5,11 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#dcdcdc"
 >
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
+    android:background="#dcdcdc"
     android:orientation="vertical"
     android:layout_margin="15dp"
     tools:context="com.example.spikee.mad_cpu.Select">
@@ -23,6 +25,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:padding="13dp"
             >
             <ImageView
                 android:id="@+id/fcfs"
@@ -43,6 +46,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:padding="13dp"
             >
             <ImageView
                 android:id="@+id/sjf"
@@ -63,6 +67,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:padding="13dp"
             >
             <ImageView
                 android:id="@+id/basics"
@@ -83,6 +88,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:padding="13dp"
             >
             <ImageView
                 android:id="@+id/priority"
@@ -104,6 +110,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:padding="13dp"
             >
             <ImageView
                 android:id="@+id/rr"
