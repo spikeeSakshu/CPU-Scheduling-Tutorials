@@ -2,24 +2,59 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.example.spikee.mad_cpu.Switch">
-
-    <Button
-        android:id="@+id/tutorial"
-        android:layout_marginTop="250dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Tutorial"/>
-    <Button
-        android:id="@+id/calc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Calculate"/>
-
+    tools:context=".Select"
+    android:paddingTop="25dp">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="10dp"
+        cardview:cardCornerRadius="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#3cb371"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tutorial"
+                android:textColor="#000"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textSize="45dp"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginBottom="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tutorials"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="10dp"
+        cardview:cardCornerRadius="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#4169e1"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/calc"
+                android:textColor="#000"
+                android:layout_marginTop="2dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textSize="45dp"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginBottom="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Calculator"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
 
 </LinearLayout>

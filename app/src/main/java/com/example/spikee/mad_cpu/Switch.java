@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Switch extends AppCompatActivity {
 
@@ -12,8 +13,8 @@ public class Switch extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_switch);
-        Button tut=findViewById(R.id.tutorial);
-        Button cal=findViewById(R.id.calc);
+        TextView tut=findViewById(R.id.tutorial);
+        TextView cal=findViewById(R.id.calc);
 
         tut.setOnClickListener(new View.OnClickListener() {
             @Override
