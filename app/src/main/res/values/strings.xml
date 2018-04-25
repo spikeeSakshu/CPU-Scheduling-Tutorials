@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Mad_Cpu</string>
+    <string name="intro">     In computing, scheduling is the method by which work specified by some means is assigned to resources that complete the work. The work may be virtual computation elements such as threads, processes or data flows, which are in turn scheduled onto hardware resources such as processors, network links or expansion cards.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_login">login</string>
+    <string name="proc_id">PROCESS ID</string>
+    <string name="at">ARRIVAL TIME</string>
+    <string name="tat">TURN AROUND TIME</string>
+    <string name="ct">COMPLETION TIME</string>
+    <string name="wt">WAITING TIME</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_try_nav">Try_nav</string>
+    <string name="title_activity_fcfs_example">Fcfs_example</string>
+    <string name="title_activity_sjf">Sjf</string>
+    <string name="title_activity_priority">Priority</string>
+    <string name="title_activity_rr">Rr</string>
+    <string name="title_activity_fcfs">Fcfs</string>
+    <string name="title_activity_sjf_example">Sjf_example</string>
+    <string name="title_activity_srtf_example">Srtf_example</string>
+    <string name="title_activity_sjf_try">Sjf_try</string>
+    <string name="title_activity_srtf_try">Srtf_try</string>
+    <string name="title_activity_proirity_example">Proirity_example</string>
+    <string name="title_activity_calc">calc</string>
+</resources>

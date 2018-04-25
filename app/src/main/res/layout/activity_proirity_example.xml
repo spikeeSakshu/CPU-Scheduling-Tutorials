@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/activity_drawer" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:elevation="-100dp"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/EX_2"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EXAMPLE 1"/>
+            <TableLayout
+                android:layout_below="@id/EX_2"
+                android:id="@+id/ex2_layout1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:id="@+id/ex2_tableRow1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#92C94A" >
+
+                    <TextView
+                        android:id="@+id/ex2_pid"
+                        android:layout_width="80dp"
+                        android:text="@string/proc_id"
+                        android:padding="10dp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/ex2_at"
+                        android:padding="10dp"
+                        android:layout_width="90dp"
+                        android:text="@string/at"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/ex2_textView13"
+                        android:padding="10dp"
+                        android:text="BURST TIME"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:text="PRIORITY"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <!-- display this button in 3rd column via layout_column(zero based) -->
+
+                <TableRow
+                    android:id="@+id/ex2_tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#6F9C33" >
+
+                    <TextView
+                        android:padding="5dp"
+                        android:text="P1"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <TextView
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:text="4"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:text="1 (Highest)"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/ex2_tableRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#6F9C33" >
+
+                    <TextView
+                        android:padding="5dp"
+                        android:text="P2"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <TextView
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:text="5"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:text="5 (Lowest)"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/ex2_tableRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#6F9C33" >
+
+                    <TextView
+                        android:padding="5dp"
+                        android:text="P3"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:text="9"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:text="2"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_below="@id/ex2_layout1"
+                android:layout_width="wrap_content"
+                android:id="@+id/ex2_tb_gatt"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp">
+                <TableRow
+                    android:id="@+id/ex2_tableRow9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#6F9C33" >
+                    <LinearLayout
+                        android:id="@+id/ex2_p1_bor"
+                        android:orientation="vertical"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                    </LinearLayout>
+                    <View style="@style/Divider" />
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:text="P1"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:id="@+id/ex2_p2_bor"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:text="P2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:id="@+id/ex2_p3_bor"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/ex2_tv_p3"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:text="P4"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:id="@+id/ex2_p4_bor"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:text="P3"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                    <LinearLayout
+                        android:id="@+id/ex2_P5_bor"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-5dp"
+                android:layout_alignLeft="@+id/ex2_tb_gatt"
+                android:layout_alignStart="@+id/ex2_tb_gatt"
+                android:layout_alignTop="@+id/ex2_tb_gatt"
+                android:layout_marginTop="35dp"
+                android:text="0"
+                android:textSize="20sp"
+                android:id="@+id/ex2_textView3" />
+
+            <TextView
+                android:id="@+id/ex2_textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ex2_tb_layout2"
+                android:layout_marginLeft="42dp"
+                android:layout_marginStart="42dp"
+                android:layout_toEndOf="@+id/ex2_textView3"
+                android:layout_toRightOf="@+id/ex2_textView3"
+                android:text="8"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ex2_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ex2_tb_layout2"
+                android:layout_centerHorizontal="true"
+                android:text="12"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ex2_textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ex2_tb_layout2"
+                android:layout_alignEnd="@+id/sjf_try"
+                android:layout_alignRight="@+id/sjf_try"
+                android:text="21"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ex2_textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_above="@+id/ex2_tb_layout2"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:text="26"
+                android:textSize="20sp" />
+
+
+            <TableLayout
+                android:layout_below="@id/ex2_textView3"
+                android:id="@+id/ex2_tb_layout2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:id="@+id/ex2_title1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#92C94A" >
+
+                    <TextView
+                        android:id="@+id/ex2_pi1"
+                        android:padding="10dp"
+                        android:layout_width="80dp"
+                        android:layout_gravity="center"
+                        android:text="@string/proc_id" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent">
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/ex2_ct"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/ct"
+                        android:layout_width="118dp"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/ex2_wt"
+                        android:padding="10dp"
+                        android:layout_width="90dp"
+                        android:text="@string/tat"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/ex2_tat"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:text="@string/wt"
+                        android:layout_width="100dp"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <!-- display this button in 3rd column via layout_column(zero based) -->
+
+                <TableRow
+                    android:id="@+id/ex2_fRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#6F9C33" >
+
+                    <TextView
+                        android:id="@+id/ex2_t1"
+                        android:padding="5dp"
+                        android:text="P1"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <TextView
+                        android:padding="10dp"
+                        android:text="8"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:padding="10dp"
+                        android:text="8"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <TextView
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/ex2_frow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#6F9C33" >
+
+                    <TextView
+                        android:padding="5dp"
+                        android:text="P2"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <TextView
+                        android:padding="10dp"
+                        android:text="12"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:padding="10dp"
+                        android:text="11"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <TextView
+                        android:padding="10dp"
+                        android:text="7"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/ex2_fRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#6F9C33" >
+
+                    <TextView
+                        android:padding="5dp"
+                        android:text="P3"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <TextView
+                        android:padding="10dp"
+                        android:text="26"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:padding="10dp"
+                        android:text="24"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <TextView
+                        android:padding="10dp"
+                        android:text="15"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/ex2_fRow5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#6F9C33" >
+
+                    <TextView
+
+                        android:padding="5dp"
+                        android:text="P4"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <TextView
+                        android:padding="10dp"
+                        android:text="17"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:padding="10dp"
+                        android:text="14"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent" >
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <TextView
+                        android:padding="10dp"
+                        android:text="9"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+            android:id="@+id/EX_1"
+                android:layout_below="@id/ex2_tb_layout2"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXAMPLE 2"/>
+            <TableLayout
+
+            android:layout_below="@id/EX_1"
+            android:id="@+id/tb_layout1"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:stretchColumns="*" >
+
+            <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#92C94A" >
+
+            <TextView
+            android:id="@+id/pid"
+            android:layout_width="80dp"
+            android:text="@string/proc_id"
+            android:padding="10dp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:id="@+id/at"
+            android:padding="10dp"
+            android:layout_width="90dp"
+            android:text="@string/at"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:id="@+id/textView131"
+            android:padding="10dp"
+            android:text="BURST TIME"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:id="@+id/textView13"
+            android:padding="10dp"
+            android:text="PRIORITY"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            </TableRow>
+
+            <!-- display this button in 3rd column via layout_column(zero based) -->
+
+            <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6F9C33" >
+
+            <TextView
+            android:id="@+id/textView21"
+            android:padding="5dp"
+            android:text="P1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="4"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="4"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            </TableRow>
+            <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6F9C33" >
+
+            <TextView
+            android:padding="5dp"
+            android:text="P2"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="5"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="5"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            </TableRow>
+            <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6F9C33" >
+
+            <TextView
+            android:padding="5dp"
+            android:text="P3"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="7 (Highest)"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            </TableRow>
+            <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6F9C33" >
+
+            <TextView
+
+            android:padding="5dp"
+            android:text="P4"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="3"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="2 (Lowest)"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            </TableRow>
+            <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6F9C33" >
+
+            <TextView
+
+            android:padding="5dp"
+            android:text="P5"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="5"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="6"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="6"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            </TableRow>
+            </TableLayout>
+
+            <TableLayout
+            android:layout_below="@id/tb_layout1"
+            android:layout_width="wrap_content"
+            android:id="@+id/tb_gatt"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp">
+            <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6F9C33" >
+            <LinearLayout
+            android:id="@+id/p1_bor"
+            android:orientation="vertical"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            </LinearLayout>
+            <View style="@style/Divider" />
+            <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:text="P1"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+            <LinearLayout
+            android:id="@+id/p2_bor"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:text="P3"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+            <LinearLayout
+            android:id="@+id/p3_bor"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:id="@+id/tv_p3"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:text="P5"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+            <LinearLayout
+            android:id="@+id/p4_bor"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:text="P2"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+            <LinearLayout
+            android:id="@+id/P5_bor"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:text="P4"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+            <LinearLayout
+            android:id="@+id/end_bor"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            </TableRow>
+            </TableLayout>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-5dp"
+            android:layout_alignLeft="@+id/tb_gatt"
+            android:layout_alignStart="@+id/tb_gatt"
+            android:layout_alignTop="@+id/tb_gatt"
+            android:layout_marginTop="35dp"
+            android:text="0"
+            android:textSize="20sp"
+            android:id="@+id/textView3" />
+
+            <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tb_layout2"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_toLeftOf="@+id/sjf_try"
+            android:layout_toStartOf="@+id/sjf_try"
+            android:text="4"
+            android:textSize="20sp" />
+
+            <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tb_layout2"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@+id/ex2_textView4"
+            android:layout_toRightOf="@+id/ex2_textView4"
+            android:text="5"
+            android:textSize="20sp" />
+
+            <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tb_layout2"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@+id/ex2_textView"
+            android:layout_toRightOf="@+id/ex2_textView"
+            android:text="11"
+            android:textSize="20sp" />
+
+            <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView6"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:text="16"
+            android:textSize="20sp" />
+
+            <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_toEndOf="@+id/textView5"
+            android:layout_toRightOf="@+id/textView5"
+            android:text="18"
+            android:textSize="20sp" />
+            <TableLayout
+            android:layout_below="@id/textView3"
+            android:id="@+id/tb_layout2"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:stretchColumns="*" >
+
+            <TableRow
+            android:id="@+id/title1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#92C94A" >
+
+            <TextView
+            android:id="@+id/pi1"
+            android:padding="10dp"
+            android:layout_width="80dp"
+            android:layout_gravity="center"
+            android:text="@string/proc_id" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent">
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:id="@+id/ct"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="@string/ct"
+            android:layout_width="118dp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:id="@+id/wt"
+            android:padding="10dp"
+            android:layout_width="90dp"
+            android:text="@string/tat"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:id="@+id/tat"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:text="@string/wt"
+            android:layout_width="100dp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            </TableRow>
+
+            <!-- display this button in 3rd column via layout_column(zero based) -->
+
+            <TableRow
+            android:id="@+id/fRow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6F9C33" >
+
+            <TextView
+            android:id="@+id/t1"
+            android:padding="5dp"
+            android:text="P1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:padding="10dp"
+            android:text="4"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:padding="10dp"
+            android:text="4"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:padding="10dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            </TableRow>
+            <TableRow
+            android:id="@+id/frow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6F9C33" >
+
+            <TextView
+            android:padding="5dp"
+            android:text="P2"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:padding="10dp"
+            android:text="16"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:padding="10dp"
+            android:text="15"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:padding="10dp"
+            android:text="10"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+            android:id="@+id/fRow4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6F9C33" >
+
+            <TextView
+            android:padding="5dp"
+            android:text="P3"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:padding="10dp"
+            android:text="5"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:padding="10dp"
+            android:text="3"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:padding="10dp"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+            android:id="@+id/fRow5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6F9C33" >
+
+            <TextView
+
+            android:padding="5dp"
+            android:text="P4"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:padding="10dp"
+            android:text="18"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+
+            <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+            android:padding="10dp"
+            android:text="15"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:padding="10dp"
+            android:text="13"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            </TableRow>
+            <TableRow
+            android:id="@+id/fRow6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6F9C33" >
+            <TextView
+            android:padding="5dp"
+            android:text="P5"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:padding="10dp"
+            android:text="11"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:padding="10dp"
+            android:text="6"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" >
+            <View style="@style/Divider" />
+            </LinearLayout>
+            <TextView
+            android:padding="10dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+            </TableRow>
+            </TableLayout>
+            <Button
+                android:id="@+id/sjf_try"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tb_layout2"
+                android:text="TRY YOURSELF!"/>
+            <TextView
+                android:layout_below="@id/sjf_try"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.v4.widget.DrawerLayout>
