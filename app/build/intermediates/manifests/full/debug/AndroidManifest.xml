@@ -89,6 +89,8 @@
         <activity android:name="com.example.spikee.mad_cpu.extra" />
         <activity android:name="com.example.spikee.mad_cpu.sjf_non_pre_try" />
         <activity android:name="com.example.spikee.mad_cpu.sjf_pre_try" />
+        <activity android:name="com.example.spikee.mad_cpu.prior_try" />
+        <activity android:name="com.example.spikee.mad_cpu.rr_try" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

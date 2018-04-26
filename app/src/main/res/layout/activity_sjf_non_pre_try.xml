@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SJF_non_pre_try">
+    tools:context=".sjf_non_pre_try">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,7 +13,8 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="16dp"
             >
             <TableRow
                 android:layout_width="match_parent"
@@ -21,7 +22,7 @@
                 >
                 <TextView
                     android:text="Process ID"
-                    android:textSize="15dp"/>
+                    android:textSize="20dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -30,7 +31,7 @@
                     android:background="#000"/>
                 <TextView
                     android:text="Arrival Time"
-                    android:textSize="15dp"/>
+                    android:textSize="20dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -40,7 +41,7 @@
                 <TextView
                     android:text="Burst Time"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
 
             </TableRow>
             <TableRow>
@@ -57,7 +58,7 @@
                 <TextView
                     android:text="P1"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -67,7 +68,7 @@
                 <TextView
                     android:text="1"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -77,7 +78,7 @@
                 <TextView
                     android:text="4"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
 
             </TableRow>
             <TableRow
@@ -87,7 +88,7 @@
                 <TextView
                     android:text="P2"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -97,7 +98,7 @@
                 <TextView
                     android:text="2"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -107,7 +108,7 @@
                 <TextView
                     android:text="5"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
 
             </TableRow>
             <TableRow
@@ -117,7 +118,7 @@
                 <TextView
                     android:text="P3"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -127,7 +128,7 @@
                 <TextView
                     android:text="3"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -137,7 +138,7 @@
                 <TextView
                     android:text="6"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
 
             </TableRow>
             <TableRow
@@ -147,7 +148,7 @@
                 <TextView
                     android:text="P4"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -157,7 +158,7 @@
                 <TextView
                     android:text="0"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -167,7 +168,7 @@
                 <TextView
                     android:text="1"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
 
             </TableRow>
             <TableRow
@@ -177,7 +178,7 @@
                 <TextView
                     android:text="P5"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -187,7 +188,7 @@
                 <TextView
                     android:text="4"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -197,50 +198,52 @@
                 <TextView
                     android:text="2"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
 
             </TableRow>
         </TableLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Choose the processes in correct sequence "
-            android:textSize="20dp"/>
+            android:text="Choose the processes in correct sequence to complete the Gant Chart "
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_margin="10dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_gravity="center_horizontal">
             <Button
-                android:layout_width="60dp"
+                android:layout_width="58dp"
                 android:layout_height="wrap_content"
                 android:text="P1"
                 android:onClick="p1"
                 android:id="@+id/sel_p1"
                 android:layout_margin="6dp"/>
             <Button
-                android:layout_width="60dp"
+                android:layout_width="58dp"
                 android:layout_height="wrap_content"
                 android:text="P2"
                 android:onClick="p2"
                 android:id="@+id/sel_p2"
                 android:layout_margin="6dp"/>
             <Button
-                android:layout_width="60dp"
+                android:layout_width="58dp"
                 android:layout_height="wrap_content"
                 android:text="P3"
                 android:onClick="p3"
                 android:id="@+id/sel_p3"
                 android:layout_margin="6dp"/>
             <Button
-                android:layout_width="60dp"
+                android:layout_width="58dp"
                 android:layout_height="wrap_content"
                 android:text="P4"
                 android:id="@+id/sel_p4"
                 android:onClick="p4"
                 android:layout_margin="6dp"/>
             <Button
-                android:layout_width="60dp"
+                android:layout_width="58dp"
                 android:layout_height="wrap_content"
                 android:text="P5"
                 android:onClick="p5"
@@ -251,13 +254,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="40dp"
+            android:layout_margin="10dp"
             android:layout_gravity="center_horizontal"
             android:background="#333">
             <TextView
                 android:background="#fff"
                 android:gravity="center"
-                android:layout_width="73dp"
+                android:layout_width="66dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/Gant_SJF_non_pre_1"
                 android:visibility="invisible"
@@ -266,7 +269,7 @@
                 android:layout_margin="1dp"/>
             <TextView
                 android:layout_margin="1dp"
-                android:layout_width="73dp"
+                android:layout_width="66dp"
                 android:background="#fff"
                 android:gravity="center"
                 android:layout_height="wrap_content"
@@ -277,7 +280,7 @@
             <TextView
                 android:background="#fff"
                 android:gravity="center"
-                android:layout_width="73dp"
+                android:layout_width="66dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/Gant_SJF_non_pre_3"
                 android:text="P2"
@@ -287,7 +290,7 @@
             <TextView
                 android:background="#fff"
                 android:gravity="center"
-                android:layout_width="73dp"
+                android:layout_width="66dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/Gant_SJF_non_pre_4"
                 android:text="P3"
@@ -297,7 +300,7 @@
             <TextView
                 android:layout_margin="1dp"
                 android:background="#fff"
-                android:layout_width="73dp"
+                android:layout_width="66dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/Gant_SJF_non_pre_5"
                 android:text="P5"
@@ -313,7 +316,7 @@
             android:layout_height="wrap_content"
             android:text="Enter the completion time and waiting time for each process in the table given below."
             android:textSize="20dp"
-            android:layout_margin="15dp"
+            android:layout_margin="20dp"
             android:layout_gravity="center_horizontal"
             android:textColor="#111"/>
         <TableLayout
@@ -329,7 +332,7 @@
                 >
                 <TextView
                     android:text="Process ID"
-                    android:textSize="19dp"/>
+                    android:textSize="16.5dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -338,7 +341,7 @@
                     android:background="#000"/>
                 <TextView
                     android:text="Completion Time"
-                    android:textSize="19dp"/>
+                    android:textSize="16.5dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -348,7 +351,7 @@
                 <TextView
                     android:text="Waiting Time"
                     android:layout_gravity="center"
-                    android:textSize="19dp"/>
+                    android:textSize="16.5dp"/>
 
             </TableRow>
             <TableRow>
@@ -365,7 +368,7 @@
                 <TextView
                     android:text="P1"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -375,7 +378,7 @@
                 <EditText
                     android:id="@+id/SJF_non_pre_p1_ct"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="13dp"
                     android:text=""
                     android:inputType="number"/>
                 <TextView
@@ -387,7 +390,7 @@
                 <EditText
                     android:id="@+id/SJF_non_pre_p1_wt"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="13dp"
                     android:text=""
                     android:inputType="number"/>
 
@@ -399,7 +402,7 @@
                 <TextView
                     android:text="P2"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -409,7 +412,7 @@
                 <EditText
                     android:id="@+id/SJF_non_pre_p2_ct"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="13dp"
                     android:text=""
                     android:inputType="number"/>
                 <TextView
@@ -421,7 +424,7 @@
                 <EditText
                     android:id="@+id/SJF_non_pre_p2_wt"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="13dp"
                     android:text=""
                     android:inputType="number"/>
 
@@ -433,7 +436,7 @@
                 <TextView
                     android:text="P3"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -443,7 +446,7 @@
                 <EditText
                     android:id="@+id/SJF_non_pre_p3_ct"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="13dp"
                     android:text=""
                     android:inputType="number"/>
                 <TextView
@@ -455,7 +458,7 @@
                 <EditText
                     android:id="@+id/SJF_non_pre_p3_wt"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="13dp"
                     android:text=""
                     android:inputType="number"/>
 
@@ -467,7 +470,7 @@
                 <TextView
                     android:text="P4"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -477,7 +480,7 @@
                 <EditText
                     android:id="@+id/SJF_non_pre_p4_ct"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="13dp"
                     android:text=""
                     android:inputType="number"/>
                 <TextView
@@ -489,7 +492,7 @@
                 <EditText
                     android:id="@+id/SJF_non_pre_p4_wt"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="13dp"
                     android:text=""
                     android:inputType="number"/>
 
@@ -501,7 +504,7 @@
                 <TextView
                     android:text="P5"
                     android:layout_gravity="center"
-                    android:textSize="15dp"/>
+                    android:textSize="13dp"/>
                 <TextView
                     android:layout_height="match_parent"
                     android:layout_width="1dp"
@@ -511,7 +514,7 @@
                 <EditText
                     android:id="@+id/SJF_non_pre_p5_ct"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="13dp"
                     android:inputType="number"/>
                 <TextView
                     android:layout_height="match_parent"
@@ -522,7 +525,7 @@
                 <EditText
                     android:id="@+id/SJF_non_pre_p5_wt"
                     android:layout_gravity="center"
-                    android:textSize="15dp"
+                    android:textSize="13dp"
                     android:inputType="number"/>
 
             </TableRow>

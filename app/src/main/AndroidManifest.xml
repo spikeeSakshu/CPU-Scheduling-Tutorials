@@ -71,7 +71,9 @@
         <activity android:name=".show" />
         <activity android:name=".extra" />
         <activity android:name=".sjf_non_pre_try" />
-        <activity android:name=".sjf_pre_try"></activity>
+        <activity android:name=".sjf_pre_try" />
+        <activity android:name=".prior_try" />
+        <activity android:name=".rr_try"></activity>
     </application>
 
 </manifest>

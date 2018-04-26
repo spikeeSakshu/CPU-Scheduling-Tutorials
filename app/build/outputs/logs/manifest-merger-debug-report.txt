@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-77:12
+ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-79:12
 MERGED from [com.android.support:design:27.0.2] C:\Users\Ujjwal\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\e7836517f3ee890d9258794e85951bb5\AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Ujjwal\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\a76eab23afd9007a3b4c9e6040159426\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\Ujjwal\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\aad6914c9d004e04460b0256d0b7c7ba\AndroidManifest.xml:16:1-21:12
@@ -37,20 +37,20 @@ MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] C:\Users\Ujj
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Ujjwal\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\d9930d1e859051228ad62dc846a67ff7\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\Ujjwal\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\43fa1ab0af55a6b1883a560e8b6cbb85\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\Ujjwal\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\f5bb4128c11fc03aed740602cd065fdf\AndroidManifest.xml:2:1-6:12
-INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-79:12
 	package
 		ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-77:12
+		ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-79:12
 		INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-77:12
+		ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:1-79:12
 		INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:2:11-69
@@ -65,7 +65,7 @@ MERGED from [com.google.firebase:firebase-iid:11.4.2] C:\Users\Ujjwal\.gradle\ca
 	android:name
 		ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:7:5-75:19
+ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:7:5-77:19
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Ujjwal\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\a76eab23afd9007a3b4c9e6040159426\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Ujjwal\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\a76eab23afd9007a3b4c9e6040159426\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:11.4.2] C:\Users\Ujjwal\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\aad6914c9d004e04460b0256d0b7c7ba\AndroidManifest.xml:19:5-20:19
@@ -239,9 +239,17 @@ ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\
 	android:name
 		ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:73:19-50
 activity#com.example.spikee.mad_cpu.sjf_pre_try
-ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:74:9-58
+ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:74:9-49
 	android:name
 		ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:74:19-46
+activity#com.example.spikee.mad_cpu.prior_try
+ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:75:9-47
+	android:name
+		ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:75:19-44
+activity#com.example.spikee.mad_cpu.rr_try
+ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:76:9-53
+	android:name
+		ADDED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml:76:19-41
 uses-sdk
 INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Ujjwal\Desktop\MAD-CPU (1)\CPU-Scheduling-Tutorials\app\src\main\AndroidManifest.xml
