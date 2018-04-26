@@ -22,12 +22,7 @@ public class Sjf_example extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sjf_example);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-
-
-        Button sjf_try=findViewById(R.id.sjf_try);
+                Button sjf_try=findViewById(R.id.sjf_try);
 
         sjf_try.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,7 +31,8 @@ public class Sjf_example extends AppCompatActivity
                 startActivity(in);
             }
         });
-
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -62,7 +58,7 @@ public class Sjf_example extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.sjf_example, menu);
+        //getMenuInflater().inflate(R.menu.out, menu);
         return true;
     }
 
@@ -74,9 +70,7 @@ public class Sjf_example extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+
 
         return super.onOptionsItemSelected(item);
     }
@@ -87,19 +81,37 @@ public class Sjf_example extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_fcfs) {
+            Intent in=new Intent(this,Fcfs.class);
+            startActivity(in);
 
-        } else if (id == R.id.nav_slideshow) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_sjf) {
+            Intent in=new Intent(this,Sjf.class);
+            startActivity(in);
 
-        } else if (id == R.id.nav_share) {
+
+        } else if (id == R.id.nav_priority) {
+            Intent in=new Intent(this,Priority.class);
+            startActivity(in);
+
+
+        } else if (id == R.id.nav_rr) {
+            Intent in=new Intent(this,Rr.class);
+            startActivity(in);
+
+
+        } else if (id == R.id.nav_signout) {
+//            Intent in=new Intent(this,.class);
+//            startActivity(in);
+//            finish();
 
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 }
+
+
+

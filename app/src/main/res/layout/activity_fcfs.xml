@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@color/colorAccent"
     tools:openDrawer="start">
 
     <include
@@ -35,6 +36,7 @@
             android:src="@drawable/fcfs"
             android:scaleType="fitStart"/>
         <TextView
+            android:textColor="@color/white"
             android:layout_margin="10dp"
             android:id="@+id/tv"
             android:padding="5dp"
@@ -46,6 +48,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="proceed to an example"
+            android:background="#2800c7"
+            android:textColor="@color/white"
             android:layout_gravity="center"/>
     </LinearLayout>
 </ScrollView>

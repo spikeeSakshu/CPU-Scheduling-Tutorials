@@ -6,6 +6,8 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/white</item>
+
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -17,7 +19,7 @@
         <item name="colorAccent">@android:color/holo_blue_dark</item>
         <item name="android:textColorHint">@color/black_overlay</item>
         <item name="colorControlNormal">@color/white</item>
-        <item name="colorControlActivated">#c60361</item>
+        <item name="colorControlActivated">#800108</item>
         <item name="colorControlHighlight">@color/white</item>
     </style>
 

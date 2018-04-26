@@ -2,8 +2,6 @@ package com.example.spikee.mad_cpu;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -59,7 +57,7 @@ public class Fcfs extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.fcfs, menu);
+        //getMenuInflater().inflate(R.menu.out, menu);
         return true;
     }
 
@@ -71,9 +69,7 @@ public class Fcfs extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+
 
         return super.onOptionsItemSelected(item);
     }
@@ -84,15 +80,30 @@ public class Fcfs extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_fcfs) {
+            Intent in=new Intent(this,Fcfs.class);
+            startActivity(in);
 
-        } else if (id == R.id.nav_slideshow) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_sjf) {
+            Intent in=new Intent(this,Sjf.class);
+            startActivity(in);
 
-        } else if (id == R.id.nav_share) {
+
+        } else if (id == R.id.nav_priority) {
+            Intent in=new Intent(this,Priority.class);
+            startActivity(in);
+
+
+        } else if (id == R.id.nav_rr) {
+            Intent in=new Intent(this,Rr.class);
+            startActivity(in);
+
+
+        } else if (id == R.id.nav_signout) {
+//            Intent in=new Intent(this,.class);
+//            startActivity(in);
+//            finish();
 
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

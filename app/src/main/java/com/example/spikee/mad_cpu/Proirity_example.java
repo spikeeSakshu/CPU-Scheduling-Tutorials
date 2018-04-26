@@ -1,5 +1,6 @@
 package com.example.spikee.mad_cpu;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -33,7 +34,6 @@ public class Proirity_example extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
-
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -47,7 +47,7 @@ public class Proirity_example extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.proirity_example, menu);
+        //getMenuInflater().inflate(R.menu.out, menu);
         return true;
     }
 
@@ -59,9 +59,7 @@ public class Proirity_example extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+
 
         return super.onOptionsItemSelected(item);
     }
@@ -72,20 +70,35 @@ public class Proirity_example extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_fcfs) {
+            Intent in=new Intent(this,Fcfs.class);
+            startActivity(in);
+            finish();
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_sjf) {
+            Intent in=new Intent(this,Sjf.class);
+            startActivity(in);
+            finish();
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_priority) {
+            Intent in=new Intent(this,Priority.class);
+            startActivity(in);
+            finish();
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_rr) {
+            Intent in=new Intent(this,Rr.class);
+            startActivity(in);
+            finish();
+
+        } else if (id == R.id.nav_signout) {
+//            Intent in=new Intent(this,.class);
+//            startActivity(in);
+//            finish();
 
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
 }

@@ -5,24 +5,29 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
+            android:id="@+id/nav_fcfs"
+            android:icon="@drawable/fcfs"
             android:title="FCFS" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_sjf"
             android:icon="@drawable/ic_menu_gallery"
             android:title="SJF" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_priority"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Priority" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_rr"
             android:icon="@drawable/ic_menu_manage"
             android:title="Round Robin" />
+
         <item
-            android:id="@+id/nav_share"
-            android:icon="@drawable/ic_menu_share"
+            android:id="@+id/nav_calc"
+            android:icon="@drawable/fcf"
+            android:title="Calculate"/>
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_menu_manage"
             android:title="SIGNOUT" />
     </group>
 

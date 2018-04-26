@@ -8,19 +8,19 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-    <include
-        layout="@layout/app_bar"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <!--<include-->
+        <!--layout="@layout/app_bar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
 
-    <android.support.design.widget.NavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header"
-        app:menu="@menu/activity_drawer" />
+    <!--<android.support.design.widget.NavigationView-->
+        <!--android:id="@+id/nav_view"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="start"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--app:headerLayout="@layout/nav_header"-->
+        <!--app:menu="@menu/activity_drawer" />-->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -33,42 +33,35 @@
         android:textAlignment="gravity"
         android:layout_marginTop="60dp"
         android:layout_height="wrap_content"
-        android:text="Non-preemptive - once CPU given to the process it cannot be preempted until completes its CPU burst
-Ready queue is treated as a priority queue based on smallest CPU time requirement
-Priorities are assigned in inverse order of time needed for completion of the entire job
-If equal time of completion, then FCFS is used for assigning priority.
-Arriving jobs inserted at proper position in queue
-Dispatcher selects shortest job (1st in queue) and runs to completion
-Gives minimum average waiting time for a given set of processes.
-Minimizes average turnaround time.
-When multiple batch jobs are sitting in a queue with the same priority, the scheduler runs the shortest job first.
-It cannot be implemented at the level of short term CPU scheduling.
-A job exceeding the resource estimation is aborted.
-Store estimated value in PCB for the current burst, and compare with actual value.
-Exponential averaging is used to estimate the process’ burst duration.
-Advantages:
- Minimizes average waiting time.
-Provably optimal w.r.t. average turnaround time
-Throughput is high.
-Disadvantages:
- In general, cannot be implemented.
-Requires future knowledge
-In practice, can’t actually predict the length of next burst
-Can lead to unfairness or starvation
-It may penalize processes with high service time requests. If the ready list is saturated, then processes with large service times tend to be left in the ready list while small processes receive service. In extreme case, where the system has little idle time, processes with large service times will never be served. This total starvation of large processes may be a serious liability of this algorithm.
-Doesn’t always minimize average turnaround time
-Elapsed time (i.e., execution-completed-time) must be recorded, it results an additional overhead on the processor. "/>
+        android:text="Shortest Job First scheduling works on the process with the shortest burst time or duration first.
+
+•	This is the best approach to minimize waiting time.
+
+•	This is used in Batch Systems.
+
+•	It is of two types:
+    1.	Non Pre-emptive
+    2.	Pre-emptive
+
+•	To successfully implement it, the burst time/duration time of the processes should be known to the processor in advance, which is practically not feasible all the time.
+
+•	This scheduling algorithm is optimal if all the jobs/processes are available at the same time. (either Arrival time is 0 for all, or Arrival time is same for all)
+"/>
         <Button
             android:id="@+id/sjf_ex"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:text="Example SJF"/>
             <Button
                 android:id="@+id/srtf_ex"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:text="Example SRTF"/>
 
         </LinearLayout>

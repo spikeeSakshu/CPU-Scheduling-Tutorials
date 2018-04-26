@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".extra"
     android:gravity="center"
+    android:background="@color/colorAccent"
     tools:layout_editor_absoluteY="25dp">
 
     <LinearLayout
@@ -24,7 +25,7 @@
             android:fontFamily="serif"
             android:text="Congratulations, You have completed the basic tutorial . You can refer to the following referances or go back and try other scheduling algorithms. "
             android:textAlignment="center"
-            android:textColor="#000"
+            android:textColor="@color/white"
             android:textSize="20dp" />
 
         <Button
@@ -32,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:onClick="back"
-            android:background="#1e90ff"
+            android:background="#2800c7"
             android:textColor="#fff"
             android:text="Back to Main Menu" />
 
@@ -43,7 +44,7 @@
             android:layout_marginRight="20dp"
             android:onClick="refer"
             android:textColor="#fff"
-            android:background="#1e90ff"
+            android:background="#2800c7"
             android:text="Additional Referances" />
     </LinearLayout>
 </RelativeLayout>
