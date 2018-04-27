@@ -36,6 +36,8 @@
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
             android:layout_weight="0"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
@@ -70,5 +72,12 @@
         android:textColor="@color/white"
         android:layout_marginLeft="6dp"
         />
-
+    <TextView
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swipe To Register"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="6dp"
+        />
 </LinearLayout>

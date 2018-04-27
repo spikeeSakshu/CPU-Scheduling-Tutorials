@@ -6,12 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@color/colorPrimaryDark"
     tools:openDrawer="start">
 
-    <include
-        layout="@layout/app_bar"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
@@ -21,6 +19,15 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/activity_drawer" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp" />
+
     <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -38,16 +45,24 @@
             android:src="@drawable/fcfs"
             android:scaleType="fitStart"/>
         <TextView
+            android:textColor="@color/white"
             android:layout_margin="10dp"
             android:padding="5dp"
+            android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/intro"/>
+            android:text="•	A fixed time is allotted to each process, called quantum, for execution.
+        •	Once a process is executed for given time period that process is preemptied and other process executes for given time period.
+        •	Context switching is used to save states of preemptied processes."/>
         <Button
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:onClick="Try"
+            android:textColor="#fff"
+            android:background="#2800c7"
             android:text="Try Round Robin"/>
 
 
@@ -55,4 +70,5 @@
 
 
 </ScrollView>
+</LinearLayout>
 </android.support.v4.widget.DrawerLayout>

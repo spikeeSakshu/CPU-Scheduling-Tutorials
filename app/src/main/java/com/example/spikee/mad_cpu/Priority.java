@@ -20,7 +20,7 @@ public class Priority extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rr);
+        setContentView(R.layout.priority);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -99,6 +99,11 @@ public class Priority extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+    public void prio(View view)
+    {
+        Intent in=new Intent(this,Proirity_example.class);
+        startActivity(in);
     }
 
 }

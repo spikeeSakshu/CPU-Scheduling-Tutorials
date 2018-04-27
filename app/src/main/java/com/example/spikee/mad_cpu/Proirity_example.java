@@ -100,5 +100,10 @@ public class Proirity_example extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+    public void gototry(View view)
+    {
+        Intent in=new Intent(this,prior_try.class);
+        startActivity(in);
+    }
 
 }

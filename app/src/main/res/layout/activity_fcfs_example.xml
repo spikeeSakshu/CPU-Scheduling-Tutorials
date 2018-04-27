@@ -15,20 +15,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <!--<android.support.design.widget.NavigationView-->
-        <!--android:id="@+id/nav_view"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_gravity="start"-->
-        <!--android:fitsSystemWindows="true"-->
-        <!--app:headerLayout="@layout/nav_header"-->
-        <!--app:menu="@menu/activity_drawer" />-->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/activity_drawer" />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     <RelativeLayout
         android:background="@color/colorAccent"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="55dp"
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent">
@@ -1386,10 +1386,12 @@
             android:id="@+id/fcfs_try"
             android:layout_width="wrap_content"
             android:background="#2800c7"
+            android:textColor="@color/white"
             android:layout_centerHorizontal="true"
             android:layout_height="wrap_content"
             android:layout_below="@id/ex2_tb_layout2"
             android:text="TRY YOURSELF!"
+            android:padding="5dp"
             android:onClick="gototry"/>
         <TextView
             android:layout_below="@id/fcfs_try"

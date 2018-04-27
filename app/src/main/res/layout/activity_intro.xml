@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@color/colorPrimaryDark"
     tools:openDrawer="start">
 
     <include
@@ -25,8 +26,10 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
     android:orientation="vertical">
     <TextView
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="INTRO TO CPU SCHEDULING"
@@ -36,23 +39,29 @@
         android:padding="5dp"/>
 
     <TextView
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginTop="20dp"
-        android:padding="8dp"
-        android:text="@string/intro"
-        android:textAlignment="center"
-        android:textSize="14sp" />
 
-    <Button
-        android:id="@+id/next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="NEXT"
-        android:layout_marginTop="100dp"/>
+        android:padding="8dp"
+        android:text="CPU Utilization
+To make out the best use of CPU and not to waste any CPU cycle, CPU would be working most of the time(Ideally 100% of the time). Considering a real system, CPU usage should range from 40% (lightly loaded) to 90% (heavily loaded.)
+Completion Time: Time taken for the execution to complete, starting from arrival time
+Turnaround Time
+It is the amount of time taken to execute a particular process, i.e. The interval from time of submission of the process to the time of completion of the process(Wall clock time).
+Waiting Time
+The sum of the periods spent waiting in the ready queue amount of time a process has been waiting in the ready queue to acquire get control on the CPU.
+Response Time
+Amount of time it takes from when a request was submitted until the first response is produced. Remember, it is the time till the first response and not the completion of process execution(final response).
+"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+
+
 
 
 </LinearLayout>

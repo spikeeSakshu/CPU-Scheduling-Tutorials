@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorAccent"
+    tools:openDrawer="start">
+
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/activity_drawer" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="54dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="290dp"
+                    android:src="@drawable/fcfs_im"
+                    android:scaleType="fitStart"/>
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_margin="10dp"
+                    android:id="@+id/tv"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Priority is assigned for each process.
+•	Process with highest priority is executed first and so on.
+•	Processes with same priority are executed in FCFS manner.
+•	Priority can be decided based on memory requirements, time requirements or any other resource requirement.
+
+"/>
+                <Button
+                    android:id="@+id/ex_prio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="proceed to an example"
+                    android:background="#2800c7"
+                    android:padding="5dp"
+                    android:onClick="prio"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.v4.widget.DrawerLayout>

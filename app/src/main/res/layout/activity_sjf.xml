@@ -8,36 +8,42 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-    <!--<include-->
-        <!--layout="@layout/app_bar"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent" />-->
 
-    <!--<android.support.design.widget.NavigationView-->
-        <!--android:id="@+id/nav_view"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_gravity="start"-->
-        <!--android:fitsSystemWindows="true"-->
-        <!--app:headerLayout="@layout/nav_header"-->
-        <!--app:menu="@menu/activity_drawer" />-->
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/activity_drawer" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <include
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp" />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
+            android:background="@color/colorPrimaryDark"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-    <TextView
-        android:layout_width="wrap_content"
-        android:textAlignment="gravity"
-        android:layout_marginTop="60dp"
-        android:layout_height="wrap_content"
-        android:text="Shortest Job First scheduling works on the process with the shortest burst time or duration first.
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shortest Job First scheduling works on the process with the shortest burst time or duration first.
 
 •	This is the best approach to minimize waiting time.
 
 •	This is used in Batch Systems.
+
 
 •	It is of two types:
     1.	Non Pre-emptive
@@ -46,9 +52,14 @@
 •	To successfully implement it, the burst time/duration time of the processes should be known to the processor in advance, which is practically not feasible all the time.
 
 •	This scheduling algorithm is optimal if all the jobs/processes are available at the same time. (either Arrival time is 0 for all, or Arrival time is same for all)
-"/>
+"
+                android:textAlignment="gravity"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
         <Button
             android:id="@+id/sjf_ex"
+            android:textColor="#fff"
+            android:background="#2800c7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -57,14 +68,18 @@
             android:text="Example SJF"/>
             <Button
                 android:id="@+id/srtf_ex"
+                android:textColor="#fff"
+                android:background="#2800c7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
+android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:text="Example SRTF"/>
 
         </LinearLayout>
     </ScrollView>
+    </LinearLayout>
 
 </android.support.v4.widget.DrawerLayout>

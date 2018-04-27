@@ -6,13 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-
+android:background="@color/colorAccent"
     tools:openDrawer="start">
 
-    <include
-        layout="@layout/app_bar"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
@@ -22,18 +19,25 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/activity_drawer" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            layout="@layout/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="58dp" />
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
         <RelativeLayout
-            android:elevation="-100dp"
-
-            android:layout_marginTop="60dp"
             android:layout_width="match_parent"
             android:orientation="vertical"
             android:layout_height="match_parent">
 
             <TextView
+                android:textColor="#fff"
                 android:id="@+id/EX_1"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
@@ -473,6 +477,7 @@
             <TableLayout
                 android:layout_below="@id/textView3"
                 android:id="@+id/tb_layout2"
+                android:background="@color/white"
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1385,6 +1390,10 @@
                 android:layout_centerHorizontal="true"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/ex2_tb_layout2"
+
+                android:padding="5dp"
+                android:textColor="#fff"
+                android:background="#2800c7"
                 android:text="TRY YOURSELF!"/>
             <TextView
                 android:layout_below="@id/sjf_try"
@@ -1394,4 +1403,6 @@
 
         </RelativeLayout>
     </ScrollView>
+    </LinearLayout>
+
 </android.support.v4.widget.DrawerLayout>

@@ -6,12 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@color/colorAccent"
     tools:openDrawer="start">
 
-    <include
-        layout="@layout/app_bar"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
@@ -21,17 +19,25 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/activity_drawer" />
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <include
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp" />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <RelativeLayout
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:orientation="vertical"
             android:layout_height="match_parent">
 
             <TextView
+                android:textColor="@color/white"
                 android:id="@+id/EX_1"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
@@ -679,6 +685,7 @@
                 </TableRow>
             </TableLayout>
             <TextView
+                android:textColor="@color/white"
                 android:id="@+id/EX_2"
                 android:layout_margin="10dp"
                 android:layout_below="@id/tb_layout2"
@@ -1346,5 +1353,5 @@
 
         </RelativeLayout>
     </ScrollView>
-
+    </LinearLayout>
 </android.support.v4.widget.DrawerLayout>

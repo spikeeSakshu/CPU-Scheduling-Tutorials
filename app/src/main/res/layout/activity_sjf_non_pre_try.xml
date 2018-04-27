@@ -6,12 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@color/colorAccent"
     tools:openDrawer="start">
 
-    <include
-        layout="@layout/app_bar"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
@@ -21,6 +19,15 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/activity_drawer" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp" />
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -31,9 +38,10 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <TableLayout
+            android:background="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="16dp"
             >
             <TableRow
@@ -227,7 +235,7 @@
             android:layout_height="wrap_content"
             android:text="Choose the processes in correct sequence to complete the Gant Chart "
             android:textSize="20dp"
-            android:textColor="#000"
+            android:textColor="#fff"
             android:layout_margin="10dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -238,6 +246,8 @@
                 android:layout_width="58dp"
                 android:layout_height="wrap_content"
                 android:text="P1"
+                android:textColor="#fff"
+                android:background="#2800c7"
                 android:onClick="p1"
                 android:id="@+id/sel_p1"
                 android:layout_margin="6dp"/>
@@ -245,6 +255,8 @@
                 android:layout_width="58dp"
                 android:layout_height="wrap_content"
                 android:text="P2"
+                android:textColor="#fff"
+                android:background="#2800c7"
                 android:onClick="p2"
                 android:id="@+id/sel_p2"
                 android:layout_margin="6dp"/>
@@ -252,6 +264,8 @@
                 android:layout_width="58dp"
                 android:layout_height="wrap_content"
                 android:text="P3"
+                android:textColor="#fff"
+                android:background="#2800c7"
                 android:onClick="p3"
                 android:id="@+id/sel_p3"
                 android:layout_margin="6dp"/>
@@ -259,6 +273,8 @@
                 android:layout_width="58dp"
                 android:layout_height="wrap_content"
                 android:text="P4"
+                android:textColor="#fff"
+                android:background="#2800c7"
                 android:id="@+id/sel_p4"
                 android:onClick="p4"
                 android:layout_margin="6dp"/>
@@ -266,6 +282,8 @@
                 android:layout_width="58dp"
                 android:layout_height="wrap_content"
                 android:text="P5"
+                android:textColor="#fff"
+                android:background="#2800c7"
                 android:onClick="p5"
                 android:id="@+id/sel_p5"
                 android:layout_margin="6dp"/>
@@ -336,15 +354,17 @@
             android:layout_height="wrap_content"
             android:text="Enter the completion time and waiting time for each process in the table given below."
             android:textSize="20dp"
+
             android:layout_margin="20dp"
             android:layout_gravity="center_horizontal"
-            android:textColor="#111"/>
+            android:textColor="#fff"/>
         <TableLayout
             android:id="@+id/SJF_non_pre_table"
             android:visibility="invisible"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
+            android:background="@color/white"
             >
             <TableRow
                 android:layout_width="match_parent"
@@ -556,8 +576,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Submit"
+            android:textColor="#fff"
+            android:background="#2800c7"
             android:textSize="30dp"
             android:onClick="submit"/>
     </LinearLayout>
 </ScrollView>
+</LinearLayout>
 </android.support.v4.widget.DrawerLayout>

@@ -10,15 +10,15 @@
             android:title="FCFS" />
         <item
             android:id="@+id/nav_sjf"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/fcfs"
             android:title="SJF" />
         <item
             android:id="@+id/nav_priority"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/fcfs"
             android:title="Priority" />
         <item
             android:id="@+id/nav_rr"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/fcfs"
             android:title="Round Robin" />
 
         <item

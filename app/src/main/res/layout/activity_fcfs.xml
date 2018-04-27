@@ -9,10 +9,7 @@
     android:background="@color/colorAccent"
     tools:openDrawer="start">
 
-    <include
-        layout="@layout/app_bar"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
@@ -25,32 +22,48 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_marginTop="60dp"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="54dp" />
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="290dp"
-            android:src="@drawable/fcfs"
+            android:src="@drawable/fcfs_im"
             android:scaleType="fitStart"/>
         <TextView
+            android:textSize="20sp"
             android:textColor="@color/white"
             android:layout_margin="10dp"
             android:id="@+id/tv"
             android:padding="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/intro"/>
+            android:text="In the First come first serve scheduling algorithm, as the name suggests, the process which arrives first, gets executed first, or we can say that the process which requests the CPU first, gets the CPU allocated first.
+•	First Come First Serve, is just like FIFO(First in First out) Queue data structure, where the data element which is added to the queue first, is the one who leaves the queue first.
+•	This is used in Batch Systems.
+•	It's easy to understand and implement programmatically, using a Queue data structure, where a new process enters through the tail of the queue, and the scheduler selects process from the head of the queue.
+•	A perfect real life example of FCFS scheduling is buying tickets at ticket counter
+"/>
         <Button
             android:id="@+id/ex_fcfs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="proceed to an example"
             android:background="#2800c7"
+            android:padding="5dp"
             android:textColor="@color/white"
             android:layout_gravity="center"/>
     </LinearLayout>
+        </LinearLayout>
 </ScrollView>
 </android.support.v4.widget.DrawerLayout>

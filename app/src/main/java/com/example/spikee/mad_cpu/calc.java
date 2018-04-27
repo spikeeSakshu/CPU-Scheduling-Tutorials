@@ -154,6 +154,7 @@ public class calc extends AppCompatActivity
         text_view=(TextView)findViewById(R.id.textbox_number);
         text_view.setText(Integer.toString(task_no));
 
+
         //for task name
         text_view=(TextView)findViewById(R.id.textbox_name);
         String task_name="T"+Integer.toString(task_no);
